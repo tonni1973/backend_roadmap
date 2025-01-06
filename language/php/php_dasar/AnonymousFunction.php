@@ -17,3 +17,14 @@
     sayGoodBye("Davion", function(string $name){
         return strtoupper($name);
     });
+
+    // akses variable global menggunakan anonymous function
+
+    $firstName = "Davion";
+    $lastName = "Mirana";
+
+    $katakanHallo = function() use($firstName, $lastName){
+        echo "Hallo nama saya $firstName $lastName";
+    };
+
+    $katakanHallo();
