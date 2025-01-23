@@ -6,6 +6,14 @@ namespace Data\One {
     class Conflict {
 
     }
+
+    class Sample {
+
+    }
+
+    class Dummy {
+        
+    }
 }
 
 
